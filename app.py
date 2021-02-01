@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__)) # Setting the file directory path
 
-MODEL_PATH = os.path.join(APP_ROOT, "./models/model.pkl") # Setting the path to the model
+MODEL_PATH = os.path.join(APP_ROOT, "./models/prod_model.pkl") # Setting the path to the model
 
 model = pickle.load(open(MODEL_PATH, "rb")) # load the pickled model model = pickle.load(open("model_sal_pred", "rb"))
 
