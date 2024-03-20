@@ -7,7 +7,7 @@ Pillow==10.2.0
 
 scikit-image==0.16.2
 scikit-learn==0.22.2.post1
-scipy==1.4.1
+scipy==1.11.1
 seaborn==0.10.0
 yapf==0.29.0
 zict==1.0.0
